@@ -38,6 +38,8 @@ dependencies:
   audioplayers: ^0.18.1
   alan_voice: ^3.8.0
   google_fonts: ^3.0.1
+  animated_splash_screen: ^1.3.0
+
 
 dev_dependencies:
   flutter_test:

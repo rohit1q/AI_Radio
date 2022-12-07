@@ -1,7 +1,8 @@
-import 'package:ai_radio_app/pages/home_page.dart';
+import 'package:ai_radio_app/spalash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(fontFamily: GoogleFonts.poppins().fontFamily),
       debugShowCheckedModeBanner:false,
 
-      home: Homepage(),
+      home: Splash(),
     );
   }
 }
